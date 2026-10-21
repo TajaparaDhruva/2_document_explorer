@@ -20,10 +20,13 @@ export default function Header() {
         </div>
 
         <div className="ml-auto hidden items-center gap-2 sm:flex text-slate-500">
-          <input
-            placeholder="⌕  Search documentation..."
-            className="w-44 rounded border border-slate-200 bg-slate-50 px-2 py-1 text-xs outline-none focus:border-indigo-400"
-          />
+        
+<input
+  type="search"
+  placeholder="⌕ Search documentation..."
+  className="w-44 rounded border border-slate-200 bg-slate-50 px-2 py-1 text-xs outline-none focus:border-indigo-400"
+/>
+
           <span className="rounded border border-slate-200 px-2 py-1 text-xs">
             v1.0
           </span>
